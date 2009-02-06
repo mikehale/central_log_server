@@ -1,0 +1,9 @@
+A splunk application to handle logs sent to a central syslog-ng server.
+
+FEATURES
+* Adds a new input for the directory /var/log/hosts
+* Extracts reporting hostname and reporting time
+* Extracts reporting facility and priority
+* Extracts process name and pid from apache files
+* Sets sourcetype for apache log files
+* Strips prefixes
