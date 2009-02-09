@@ -4,6 +4,6 @@ FEATURES
 * Adds a new input for the directory /var/log/hosts
 * Extracts reporting hostname and reporting time
 * Extracts reporting facility and priority
-* Extracts process name and pid from apache files
+* Extracts process name and pid
 * Sets sourcetype for apache log files
 * Strips prefixes
