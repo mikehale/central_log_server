@@ -1,0 +1,15 @@
+<datetime>
+  <define name="_isodate2" extract="year,month,day">
+    <text><![CDATA[(\d+)-(\d+)-(\d+)T]]></text>
+  </define>
+  <define name="_isotime2" extract="hour,minute,second,zone">
+    <text><![CDATA[T(\d+):(\d+):(\d+)[-+](\d\d:\d\d)]]></text>
+  </define>
+
+  <timePatterns>                                                                                                                                                                                                                                                                                  
+    <use name="_isotime2"/>
+  </timePatterns>
+  <datePatterns>
+    <use name="_isodate2"/>
+  </datePatterns>
+</datetime>
