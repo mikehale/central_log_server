@@ -1,4 +1,4 @@
-A splunk application to handle logs sent to a central syslog-ng server.
+ 	 A splunk application to handle logs sent from syslog-ng to a central splunk server.
 
 FEATURES
 * Handles ISODATE as specified by syslog-ng 2.
